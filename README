@@ -1,0 +1,4 @@
+Webcam mounter on a servomotor connected to an arduino 
+
+Arduino  : waits for input on Serial,9600
+Python+opencv : look for a large enough blue object, tells the arduino to move the servo motor left or right so that the blue object stays at the center of the screen
